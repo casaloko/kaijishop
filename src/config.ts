@@ -18,7 +18,7 @@ export const siteConfig = {
 
   // رابط التضمين (Embed) لإظهار الخريطة داخل الموقع
   googleMapsEmbedUrl:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1s0xda62d00122e232b:0x51e11c9c3f86bbbd!2sSte+kaiji+sarl+au!5e0!3m2!1sar!2sma!4v1714713600000!5m2!1sar!2sma',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.554316930263!2d-6.353070425026649!3d32.34405497334583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda387ba40676f65%3A0x51e11c9c3f86bbbd!2sSte%20kaiji%20sarl%20au!5e0!3m2!1sar!2sma!4v1777782635951!5m2!1sar!2sma',
 
   defaultWholesaleMessage:
     'السلام عليكم، أريد سعر الجملة + تفاصيل التوفر لهذا المنتج:',
