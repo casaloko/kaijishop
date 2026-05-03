@@ -1,6 +1,7 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import { siteConfig, toWhatsAppLink } from '../config'
 import { SocialLinks } from './SocialLinks'
+import { Logo } from './Logo'
 
 function navLinkClassName(isActive: boolean) {
   return `navLink ${isActive ? 'navLinkActive' : ''}`
@@ -17,7 +18,7 @@ export function Layout() {
         <div className="container">
           <nav className="nav" aria-label="التنقل الرئيسي">
             <NavLink to="/" className="brand">
-              <span className="logoMark" aria-hidden="true" />
+              <Logo />
               <span>{siteConfig.brandName}</span>
               <span className="pill" style={{ marginInlineStart: 6 }}>
                 B2B
@@ -64,7 +65,7 @@ export function Layout() {
             <div>
               <div className="row" style={{ justifyContent: 'space-between' }}>
                 <div className="brand">
-                  <span className="logoMark" aria-hidden="true" />
+                  <Logo />
                   <span>{siteConfig.companyName}</span>
                 </div>
                 <span className="pill">kaijishop.com</span>
