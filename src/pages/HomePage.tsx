@@ -17,7 +17,7 @@ export function HomePage() {
                 <img src={heroImage} alt="سفن شحن عملاقة" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 <div style={{ display: 'grid', gridTemplateRows: '1fr 1fr', gap: '8px' }}>
                   <img src="https://images.unsplash.com/photo-1540962351504-03099e0a754b?q=80&w=600&auto=format&fit=crop" alt="طائرات شحن" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                  <img src="https://images.unsplash.com/photo-1586528116311-ad8ed7c80a30?q=80&w=600&auto=format&fit=crop" alt="مستودعات وحاويات" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=600&auto=format&fit=crop" alt="مستودعات وحاويات" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
               </div>
               <span className="eyebrow">
