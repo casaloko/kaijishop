@@ -11,6 +11,18 @@ npm run dev
 
 ثم افتح الرابط الذي يظهر في الطرفية (عادةً `http://localhost:5173`).
 
+## نشر على GitHub Pages
+
+هذا المشروع مضبوط ليعمل على:
+
+- `https://casaloko.github.io/kaijishop/`
+
+لذلك تم ضبط `base` في `vite.config.ts` إلى `/kaijishop/`.
+
+إذا ستنشر لاحقاً على دومين مباشر مثل `kaijishop.com`:
+
+- غيّر `base` إلى `/`
+
 ## أهم الملفات للتعديل
 
 - `src/config.ts`: ضع رقم واتساب + روابط YouTube/Instagram + رابط Google Maps (Embed/Share).
