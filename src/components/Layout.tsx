@@ -2,6 +2,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 import { siteConfig, toWhatsAppLink } from '../config'
 import { SocialLinks } from './SocialLinks'
 import { Logo } from './Logo'
+import { Chatbot } from './Chatbot'
 
 function navLinkClassName(isActive: boolean) {
   return `navLink ${isActive ? 'navLinkActive' : ''}`
@@ -114,6 +115,8 @@ export function Layout() {
         <span className="waIcon" aria-hidden="true" />
         WhatsApp
       </a>
+
+      <Chatbot />
     </div>
   )
 }
