@@ -4,6 +4,8 @@ import { ProductCard } from '../components/ProductCard'
 import { siteConfig, toWhatsAppLink } from '../config'
 import { products } from '../data/products'
 
+import heroImage from '../assets/hero.png'
+
 export function HomePage() {
   return (
     <>
@@ -11,6 +13,7 @@ export function HomePage() {
         <div className="container">
           <div className="heroGrid">
             <div className="card heroCard">
+              <img src={heroImage} alt="شحن واستيراد بالجملة" style={{ width: '100%', height: '300px', objectFit: 'cover', borderRadius: '12px', marginBottom: '20px' }} />
               <span className="eyebrow">
                 استيراد من الصين • بيع بالجملة • Traders first
               </span>

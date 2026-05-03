@@ -14,8 +14,8 @@
   --container: 1120px;
 
   --sans:
-    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
-    "Noto Sans Arabic", "Noto Sans", sans-serif;
+    "Cairo", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
 
   font-family: var(--sans);
   color: var(--text);

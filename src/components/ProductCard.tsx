@@ -7,7 +7,11 @@ export function ProductCard({ product }: { product: Product }) {
 
   return (
     <article className="card productCard">
-      <div className="productMedia" role="img" aria-label={product.name} />
+      {product.imageUrl ? (
+        <img src={product.imageUrl} alt={product.name} className="productMedia" style={{ objectFit: 'cover' }} />
+      ) : (
+        <div className="productMedia" role="img" aria-label={product.name} />
+      )}
       <div className="productBody">
         <h3>{product.name}</h3>
         <p>{product.shortDescription}</p>
