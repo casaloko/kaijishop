@@ -14,7 +14,11 @@ export const siteConfig = {
 
   // رابط Google Maps (Share link)
   googleMapsShareUrl:
-    'https://www.google.com/maps/place/Ste+kaiji+sarl+au/data=!4m2!3m1!1s0x0:0x51e11c9c3f86bbbd?sa=X&ved=1t:2428&ictx=111',
+    'https://www.google.com/maps/place/Ste+kaiji+sarl+au/@33.4831031,-7.5878235,17z/data=!3m1!4b1!4m6!3m5!1s0xda62d00122e232b:0x51e11c9c3f86bbbd!8m2!3d33.4831031!4d-7.5878235!16s%2Fg%2F11wdb_d_09',
+
+  // رابط التضمين (Embed) لإظهار الخريطة داخل الموقع
+  googleMapsEmbedUrl:
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1s0xda62d00122e232b:0x51e11c9c3f86bbbd!2sSte+kaiji+sarl+au!5e0!3m2!1sar!2sma!4v1714713600000!5m2!1sar!2sma',
 
   defaultWholesaleMessage:
     'السلام عليكم، أريد سعر الجملة + تفاصيل التوفر لهذا المنتج:',

@@ -6,7 +6,7 @@ function guessEmbedUrl(url: string) {
 }
 
 export function ContactPage() {
-  const embedUrl = guessEmbedUrl(siteConfig.googleMapsShareUrl)
+  const embedUrl = (siteConfig as any).googleMapsEmbedUrl || guessEmbedUrl(siteConfig.googleMapsShareUrl)
 
   return (
     <section className="section">
@@ -69,10 +69,9 @@ export function ContactPage() {
         </div>
 
         <div className="section" style={{ paddingBottom: 0 }}>
-          <h2 className="sectionTitle">مقر الشركة</h2>
-          <p className="helper" style={{ marginBottom: 10 }}>
-            ضع رابط Google Maps Embed داخل `src/config.ts` لعرض خريطة تفاعلية.
-            إلى حين ذلك يمكنك فتح الخريطة عبر الزر.
+          <h2 className="sectionTitle">مقر الشركة (المقر الرئيسي)</h2>
+          <p className="lead" style={{ fontSize: 14, marginBottom: 16 }}>
+            يمكنكم زيارتنا في مقرنا بالدار البيضاء للتنسيق بخصوص طلبياتكم بالجملة.
           </p>
 
           <div className="embed">
