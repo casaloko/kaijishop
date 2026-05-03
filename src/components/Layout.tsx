@@ -39,6 +39,12 @@ export function Layout() {
                 الاستيراد من الصين
               </NavLink>
               <NavLink
+                to="/sample"
+                className={({ isActive }) => navLinkClassName(isActive)}
+              >
+                طلب عينة
+              </NavLink>
+              <NavLink
                 to="/request"
                 className={({ isActive }) => navLinkClassName(isActive)}
               >
